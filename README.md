@@ -42,7 +42,26 @@ Batteries not included, this was a quick hack.
 ## Example
 
 ```bash
+# With Docker
 $> docker run -v $(pwd)/tracks:/tmp/ zimmertr/gaiaexport:latest $SESSION_ID
+Wrote '/tmp/New Track 113022 84422 AM.gpx'
+Wrote '/tmp/Rocky Run - Ramparts - East Alta - Chikamin - Iceberg - Return.gpx'
+Wrote '/tmp/Rocky Run - Ramparts - East Alta - Chikamin - Iceberg - Return - copy.gpx'
+Wrote '/tmp/untitled.gpx'
+Wrote '/tmp/Kilauea Iki Loop.gpx'
+Wrote '/tmp/half trail, half bushwhack to ridge.gpx'
+Wrote '/tmp/Golden Lakes Loop.gpx'
+Wrote '/tmp/Mauna Loa #1.gpx'
+Wrote '/tmp/Lennox Mount #1.gpx'
+Wrote '/tmp/Frigid Mount #1.gpx'
+Wrote '/tmp/Frigid Mount #2.gpx'
+Wrote '/tmp/Grindstone M #1.gpx'
+Wrote '/tmp/Grindstone M #1.gpx'
+Wrote '/tmp/Tuesday Trip to Tarn Town.gpx'
+Wrote '/tmp/Chikamin Pea #1.gpx'
+
+# With Python
+$> python3 bulk_export.py $SESSION_ID
 Wrote '/tmp/New Track 113022 84422 AM.gpx'
 Wrote '/tmp/Rocky Run - Ramparts - East Alta - Chikamin - Iceberg - Return.gpx'
 Wrote '/tmp/Rocky Run - Ramparts - East Alta - Chikamin - Iceberg - Return - copy.gpx'

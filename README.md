@@ -2,7 +2,9 @@
 
 ## Summary
 
-A small wrapper around [kk7ds](https://github.com/kk7ds/)' [gaiagpsclient](https://github.com/kk7ds/gaiagpsclient) tool to help NWHikers bulk export their GPX tracks.
+A small wrapper around [kk7ds](https://github.com/kk7ds/)' [gaiagpsclient](https://github.com/kk7ds/gaiagpsclient) tool to help [NWHikers](https://www.nwhikers.net/forums/viewtopic.php?p=1272948) bulk export their GPX tracks.
+
+<hr>
 
 ## Instructions
 
@@ -18,6 +20,8 @@ A small wrapper around [kk7ds](https://github.com/kk7ds/)' [gaiagpsclient](https
    ```bash
    docker run -v $(pwd)/tracks:/tmp/ zimmertr/gaiaexport:latest $SESSION_ID
    ```
+
+<hr>
 
 ## Example
 

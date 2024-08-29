@@ -5,7 +5,10 @@ import re
 
 def list_tracks(session_id):
     tracks = subprocess.run(
-        ["gaiagps", "--sessionid", session_id, "track", "list", "--by-id"],
+        ["gaiagps",
+            "--sessionid", session_id,
+            "track", "list", "--by-id"
+        ],
         stdout=subprocess.PIPE,
         text=True
     )
